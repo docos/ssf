@@ -132,6 +132,7 @@ function datenum_local(v, date1904) {
 	else if(v >= base1904) epoch += 24*60*60*1000;
 	return (epoch - (dnthresh + (v.getTimezoneOffset() - basedate.getTimezoneOffset()) * 60000)) / (24 * 60 * 60 * 1000);
 }
+SSF.datenum_local = datenum_local;
 function general_fmt_int(v) { return v.toString(10); }
 SSF._general_int = general_fmt_int;
 var general_fmt_num = (function make_general_fmt_num() {
