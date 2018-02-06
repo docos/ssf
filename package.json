@@ -1,5 +1,5 @@
 {
-	"name": "ssf",
+	"name": "docos.ssf",
 	"version": "0.10.1",
 	"author": "sheetjs",
 	"description": "Format data using ECMA-376 spreadsheet Format Codes",
